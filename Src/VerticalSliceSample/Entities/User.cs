@@ -6,6 +6,8 @@ namespace VerticalSliceSample.Entities
     {
         [Key]
         public Guid ID { get; set; }
-        public string? Name { get; set; }
+        public string Name { get; set; }
+        [Phone]
+        public string Phone { get; set; }
     }
 }
